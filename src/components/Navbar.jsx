@@ -7,7 +7,7 @@ import { data } from "../utils/data";
 function Navbar() {
   return (
     <>
-      <div className='flex fixed w-full bg-white justify-between px-2 py-3 border-[1px] border-gray-400 '>
+      <div className='flex fixed w-full z-50 bg-white justify-between px-2 py-3 border-[1px] border-gray-400 '>
         <div className='flex'>
           <div className='px-2'>
             <img src={menu} alt='menu-bar' />

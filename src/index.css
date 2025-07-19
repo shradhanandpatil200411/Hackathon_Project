@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "castledown-regular";
-  src: url("./Fonts/castledown-regular/castledown-regular.ttf" ) format("ttf");
+  src: local("castledown-regular" ),url("./Fonts/castledown-regular/castledown-regular.ttf") ;
 }
 
 @font-face {
