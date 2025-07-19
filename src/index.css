@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "castledown-regular";
+  src: url("./Fonts/castledown-regular/castledown-regular.ttf" ) format("ttf");
+}
+
+@font-face {
+  font-family: "clash-bold";
+  src: url("./Fonts/clash/ClashDisplay-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "clash-medium";
+  src: url("./Fonts/clash/ClashDisplay-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "clash-regular";
+  src: url("./Fonts/clash/ClashDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "clash-semibold";
+  src: url("./Fonts/clash/ClashDisplay-Semibold.woff") format("woff");
+}
+
+@theme{
+  --font-onest: "Onest", sans-serif;
+}
+
+
+@layer utilities {
+
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
