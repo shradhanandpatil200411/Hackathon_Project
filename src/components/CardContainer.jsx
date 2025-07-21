@@ -5,7 +5,9 @@ function CardContainer() {
     <>
       <div className='mt-10'>
         <div className='text-center'>
-          <h1 className='font-[castledown-regular] '>WEAR IT LIKE VIRAT</h1>
+          <h1 className='font-[clashSemibold]  tracking-widest'>
+            WEAR IT LIKE VIRAT
+          </h1>
         </div>
         <div className='w-full overflow-x-auto no-scrollbar'>
           <div className='flex gap-1 whitespace-nowrap'>

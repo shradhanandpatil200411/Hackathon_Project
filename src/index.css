@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 @import "tailwindcss";
 
+
 @font-face {
-  font-family: "castledown-regular";
-  src: local("castledown-regular" ),url("./Fonts/castledown-regular/castledown-regular.ttf") ;
+  font-family: "castledownHeavy";
+  src: url("./Fonts/castledown-heavy/castledown-heavy.ttf");
 }
 
 @font-face {
-  font-family: "clash-bold";
-  src: url("./Fonts/clash/ClashDisplay-Bold.woff") format("woff");
+  font-family: "clashBold";
+  src: url("./Fonts/clash/ClashDisplay-Bold.woff");
 }
 
 @font-face {
-  font-family: "clash-medium";
-  src: url("./Fonts/clash/ClashDisplay-Medium.woff") format("woff");
+  font-family: "clashMedium";
+  src: url("./Fonts/clash/ClashDisplay-Medium.woff");
 }
 
 @font-face {
-  font-family: "clash-regular";
-  src: url("./Fonts/clash/ClashDisplay-Regular.woff") format("woff");
+  font-family: "clashRegular";
+  src: url("./Fonts/clash/ClashDisplay-Regular.woff");
 }
 
 @font-face {
-  font-family: "clash-semibold";
-  src: url("./Fonts/clash/ClashDisplay-Semibold.woff") format("woff");
+  font-family: "clashSemibold";
+  src: url("./Fonts/clash/ClashDisplay-Semibold.woff");
 }
 
 @theme{
