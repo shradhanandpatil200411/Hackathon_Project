@@ -10,11 +10,14 @@ import bannerImg4 from "../Img/Mobile/Banner/BANNER-4.jfif";
 import bannerImg5 from "../Img/Mobile/Banner/BANNER-5.jfif";
 import bannerImg6 from "../Img/Mobile/Banner/BANNER-6.jfif";
 import AboutUsCarousel from "../components/AboutUsCarousel";
+import WallpaperContainer from "../components/WallpaperContainer";
+import WrognStore from "../components/WrognStore";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className='mx-1'>
-      <div className='mt-4'>
+    <div>
+      <div className='mt-4 mx-1'>
         <HomeCarousel
           img1={bannerImg1}
           img2={bannerImg2}
@@ -29,6 +32,9 @@ function Home() {
       <TrendingCategories />
       <BestSellers />
       <AboutUsCarousel />
+      <WallpaperContainer />
+      <WrognStore />
+      <Footer />
     </div>
   );
 }

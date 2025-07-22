@@ -9,7 +9,7 @@ import img5 from "../Img/Mobile/Banner/Banner-11.jfif";
 function AboutUsCarousel() {
   return (
     <>
-      <div>
+      <div className='mx-1'>
         <div>
           <h1 className='text-center mt-8 mb-2 font-[clashSemibold] tracking-widest'>
             WE ARE WRONG
