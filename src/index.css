@@ -47,3 +47,20 @@
     /* Firefox */
   }
 }
+
+
+@layer utilities {
+  .marquee-animation {
+    animation: marquee-linear 2s linear infinite both;
+  }
+
+  @keyframes marquee-linear {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}

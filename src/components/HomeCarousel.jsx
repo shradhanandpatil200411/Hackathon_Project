@@ -1,13 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import bannerImg1 from "../Img/Mobile/Banner/BANNER-1.jfif";
-import bannerImg2 from "../Img/Mobile/Banner/BANNER-2.jfif";
-import bannerImg3 from "../Img/Mobile/Banner/BANNER-3.jfif";
-import bannerImg4 from "../Img/Mobile/Banner/BANNER-4.jfif";
-import bannerImg5 from "../Img/Mobile/Banner/BANNER-5.jfif";
-import bannerImg6 from "../Img/Mobile/Banner/BANNER-6.jfif";
 
-function HomeCarousel() {
+function HomeCarousel({ img1, img2, img3, img4, img5, img6 }) {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -25,8 +19,8 @@ function HomeCarousel() {
   return (
     <>
       <Carousel
-        swipeable={false}
-        draggable={false}
+        swipeAble={true}
+        draggable={true}
         showDots={true}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
@@ -43,47 +37,25 @@ function HomeCarousel() {
         dotListClass='custom-dot-list-style'
         itemClass='carousel-item-padding-40-px'>
         <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2 '
-            src={bannerImg1}
-            alt='img-1'
-          />
+          <img className='w-full rounded-3xl  ' src={img1} alt='img-1' />
         </div>
         <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2'
-            src={bannerImg2}
-            alt='img-2'
-          />
+          <img className='w-full rounded-3xl ' src={img2} alt='img-2' />
         </div>
         <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2'
-            src={bannerImg3}
-            alt='img-3'
-          />
+          <img className='w-full rounded-3xl ' src={img3} alt='img-3' />
         </div>
         <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2'
-            src={bannerImg4}
-            alt='img-4'
-          />
+          <img className='w-full rounded-3xl ' src={img4} alt='img-4' />
         </div>
         <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2'
-            src={bannerImg5}
-            alt='img-5'
-          />
+          <img className='w-full rounded-3xl ' src={img5} alt='img-5' />
         </div>
-        <div>
-          <img
-            className='w-full rounded-3xl px-2 pt-2'
-            src={bannerImg6}
-            alt='img-6'
-          />
-        </div>
+        {img6 && (
+          <div>
+            <img className='w-full rounded-3xl ' src={img6} alt='img-6' />
+          </div>
+        )}
       </Carousel>
     </>
   );

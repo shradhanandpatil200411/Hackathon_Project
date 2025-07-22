@@ -1,0 +1,23 @@
+import React from "react";
+import img1 from "../Img/CHECKED-SHIRTS-BANNER.jfif";
+function BestSellers() {
+  return (
+    <>
+      <div>
+        <div className='text-center mt-6 mb-2'>
+          <h1 className='font-[clashSemibold] tracking-widest'>BEST SELLERS</h1>
+        </div>
+        <div>
+          <div className='w-full overflow-x-auto no-scrollbar'>
+            <div className='flex gap-2 whitespace-nowrap pl-4'>
+              <img className='rounded-2xl w-[90%]' src={img1} alt='img' />
+              <img className='rounded-2xl w-[90%]' src={img1} alt='img' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default BestSellers;
