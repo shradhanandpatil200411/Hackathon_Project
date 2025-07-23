@@ -1,5 +1,7 @@
-import React from "react";
 import img1 from "../Img/CHECKED-SHIRTS-BANNER.jfif";
+import img2 from "../Img/CHCKED-BANNER-T-SHIRTS_1.jfif";
+import img3 from "../Img/CARGOS-_-JOGGERS-WEBSITE.jfif";
+
 function BestSellers() {
   return (
     <>
@@ -11,7 +13,8 @@ function BestSellers() {
           <div className='w-full overflow-x-auto no-scrollbar'>
             <div className='flex gap-2 whitespace-nowrap pl-4'>
               <img className='rounded-2xl w-[90%]' src={img1} alt='img' />
-              <img className='rounded-2xl w-[90%]' src={img1} alt='img' />
+              <img className='rounded-2xl w-[90%]' src={img2} alt='img' />
+              <img className='rounded-2xl w-[90%]' src={img3} alt='img' />
             </div>
           </div>
         </div>

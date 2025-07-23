@@ -1,20 +1,18 @@
-import trendingImg from "../Img/card/card-28.jpg";
-
-function TrendingCard() {
+function TrendingCard({ img, name, price }) {
   return (
     <>
       <div className='w-[55%]'>
         <div>
-          <img className='rounded-xl' src={trendingImg} alt='img' />
+          <img className='rounded-xl' src={img} alt='img' />
         </div>
         <div className='text-white w-full flex justify-between '>
-          <div className='w-[40%]'>
+          <div className='w-[50%]'>
             <h1 className='truncate  font-onest text-sm'>
-              Tonal AOP <br /> Oversized T-Shirt | White
+              {name.slice(0, 10)} <br /> {name.slice(10)}
             </h1>
           </div>
           <div>
-            <p className='text-sm'>₹999</p>
+            <p className='text-sm'>₹{price}</p>
           </div>
         </div>
       </div>

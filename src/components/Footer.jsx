@@ -1,4 +1,3 @@
-// import logo from "../Img/icon/logo_icon_.svg";
 import instagram from "../Img/icon/Instagram.svg";
 import pinterest from "../Img/icon/Pinterest.svg";
 import facebook from "../Img/icon/Facebook.svg";
