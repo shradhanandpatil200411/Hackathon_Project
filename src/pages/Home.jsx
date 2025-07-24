@@ -13,29 +13,40 @@ import AboutUsCarousel from "../components/AboutUsCarousel";
 import WallpaperContainer from "../components/WallpaperContainer";
 import WrognStore from "../components/WrognStore";
 import Footer from "../components/Footer";
+import { useSelector } from "react-redux";
+import Navbar from "../components/Navbar";
+import SideBar from "../components/sidebar";
 
 function Home() {
+  const isOpen = useSelector((state) => state.sidebar.isOpen);
   return (
-    <div>
-      <div className='mt-4 mx-1'>
-        <HomeCarousel
-          img1={bannerImg1}
-          img2={bannerImg2}
-          img3={bannerImg3}
-          img4={bannerImg4}
-          img5={bannerImg5}
-          img6={bannerImg6}
-        />
-      </div>
-      <CardContainer />
-      <VideoContainer />
-      <TrendingCategories />
-      <BestSellers />
-      <AboutUsCarousel />
-      <WallpaperContainer />
-      <WrognStore />
-      <Footer />
-    </div>
+    <>
+      {isOpen ? (
+        <SideBar />
+      ) : (
+        <>
+          <Navbar />
+          <div className='mt-4 mx-1 lg:mt-0'>
+            <HomeCarousel
+              img1={bannerImg1}
+              img2={bannerImg2}
+              img3={bannerImg3}
+              img4={bannerImg4}
+              img5={bannerImg5}
+              img6={bannerImg6}
+            />
+          </div>
+          <CardContainer />
+          <VideoContainer />
+          <TrendingCategories />
+          <BestSellers />
+          <AboutUsCarousel />
+          <WallpaperContainer />
+          <WrognStore />
+          <Footer />
+        </>
+      )}
+    </>
   );
 }
 

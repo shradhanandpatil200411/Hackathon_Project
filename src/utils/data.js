@@ -42,60 +42,64 @@ import trendingImg5 from "../Img/card/card-32.jpg";
 import trendingImg6 from "../Img/card/card-33.jpg";
 
 export const data = {
-  navbar: [
-    {
-      img: navImg1,
-      text: "EOSS",
-    },
-    {
-      img: navImg2,
-      text: "FRESH ARRIVALS",
-    },
-    {
-      img: navImg3,
-      text: "SHIRTS",
-    },
-    {
-      img: navImg4,
-      text: "POLO",
-    },
-    {
-      img: navImg5,
-      text: "T-SHIRTS",
-    },
-    {
-      img: navImg6,
-      text: "JEANS",
-    },
-    {
-      img: navImg7,
-      text: "JEANS",
-    },
-    {
-      img: navImg8,
-      text: "JEANS",
-    },
-    {
-      img: navImg9,
-      text: "JEANS",
-    },
-    {
-      img: navImg10,
-      text: "JEANS",
-    },
-    {
-      img: navImg11,
-      text: "JEANS",
-    },
-    {
-      img: navImg12,
-      text: "JEANS",
-    },
-    {
-      img: navImg13,
-      text: "JEANS",
-    },
-  ],
+  navbar: {
+    nav1: [
+      {
+        img: navImg1,
+        text: "EOSS",
+      },
+      {
+        img: navImg2,
+        text: "FRESH ARRIVALS",
+      },
+      {
+        img: navImg3,
+        text: "SHIRTS",
+      },
+      {
+        img: navImg4,
+        text: "POLO",
+      },
+      {
+        img: navImg5,
+        text: "T-SHIRTS",
+      },
+      {
+        img: navImg6,
+        text: "JEANS",
+      },
+    ],
+    nav2: [
+      {
+        img: navImg8,
+        text: "EXCLUSIVE",
+      },
+      {
+        img: navImg9,
+        text: "ALL PRODUCTS",
+      },
+      {
+        img: navImg10,
+        text: "FOOTWEAR",
+      },
+      {
+        img: navImg11,
+        text: "ESSENTIALS",
+      },
+      {
+        img: navImg12,
+        text: "BOTTOMWEAR",
+      },
+      {
+        img: navImg7,
+        text: "FRESH ARRIVALS",
+      },
+      {
+        img: navImg13,
+        text: "TOPWEAR",
+      },
+    ],
+  },
   card: [
     {
       heading: "Heavy GSM Printed Monster T-shirt | Red",
