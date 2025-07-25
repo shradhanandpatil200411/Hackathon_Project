@@ -4,7 +4,7 @@ import aboutImg2 from "../Img/Mobile/Banner/Banner-8.jfif";
 import aboutImg3 from "../Img/Mobile/Banner/Banner-9.jfif";
 import aboutImg4 from "../Img/Mobile/Banner/Banner-10.jfif";
 import aboutImg5 from "../Img/Mobile/Banner/Banner-11.jfif";
-import desktopAboutImg1 from "../Img/DESKTOP-BANNER-1.jfif";
+import desktopAboutImg1 from "../Img/DESKTOP-BANNER-1.jpg";
 import desktopAboutImg2 from "../Img/DESKTOP-BANNER-2.jfif";
 import desktopAboutImg3 from "../Img/DESKTOP-BANNER-3.jfif";
 import { isMobile } from "react-device-detect";

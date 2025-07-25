@@ -1,7 +1,6 @@
-import React from "react";
-import img1 from "../Img/DESKTOP-BANNER-4.jfif";
-import img2 from "../Img/small-1.jfif";
-import img3 from "../Img/small-2.jfif";
+import img1 from "../Img/DESKTOP-BANNER-4.jpg";
+import img2 from "../Img/small-1.jpg";
+import img3 from "../Img/small-2.jpg";
 
 function WrognStore() {
   return (

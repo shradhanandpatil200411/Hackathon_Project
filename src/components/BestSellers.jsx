@@ -1,5 +1,5 @@
 import img1 from "../Img/CHECKED-SHIRTS-BANNER.jfif";
-import img2 from "../Img/CHCKED-BANNER-T-SHIRTS_1.jfif";
+import img2 from "../Img/CHCKED-BANNER-T-SHIRTS_1.jpg";
 import img3 from "../Img/CARGOS-_-JOGGERS-WEBSITE.jfif";
 import img4 from "../Img/MM-website-BANNER-JEANS_1.jfif";
 

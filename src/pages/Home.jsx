@@ -10,12 +10,12 @@ import mobileBannerImg4 from "../Img/Mobile/Banner/Banner-4.jfif";
 import mobileBannerImg5 from "../Img/Mobile/Banner/Banner-5.jfif";
 import mobileBannerImg6 from "../Img/Mobile/Banner/Banner-6.jfif";
 
-import desktopBannerImg1 from "../Img/Banner/BANNER-1.jfif";
-import desktopBannerImg2 from "../Img/Banner/BANNER-2.jfif";
-import desktopBannerImg3 from "../Img/Banner/BANNER-3.jfif";
-import desktopBannerImg4 from "../Img/Banner/BANNER-4.jfif";
-import desktopBannerImg5 from "../Img/Banner/BANNER-5.jfif";
-import desktopBannerImg6 from "../Img/Banner/BANNER-6.jfif";
+import desktopBannerImg1 from "../Img/Banner/BANNER-1.jpg";
+import desktopBannerImg2 from "../Img/Banner/BANNER-2.jpg";
+import desktopBannerImg3 from "../Img/Banner/BANNER-3.jpg";
+import desktopBannerImg4 from "../Img/Banner/BANNER-4.jpg";
+import desktopBannerImg5 from "../Img/Banner/BANNER-5.jpg";
+import desktopBannerImg6 from "../Img/Banner/BANNER-6.jpg";
 
 import AboutUsCarousel from "../components/AboutUsCarousel";
 import WallpaperContainer from "../components/WallpaperContainer";

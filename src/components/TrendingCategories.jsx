@@ -1,20 +1,20 @@
 import denims from "../Img/Mobile/Trending/DENIMS.jfif";
 import oversized from "../Img/Mobile/Trending/OVERSIZED.jfif";
 import polo from "../Img/Mobile/Trending/POLOS.jfif";
-import fullSleeve from "../Img/Mobile/Trending/SHOP-FULL-SLEEVE-SHIRTS-WEBSIT.jfif";
+import fullSleeve from "../Img/Mobile/Trending/SHOP-HALF-SLEEVE-SHIRTS-MOBILE_2.jfif";
 import halfSleeve from "../Img/Mobile/Trending/SHOP-HALF-SLEEVE-SHIRTS-MOBILE_2.jfif";
 import trendingBgImg from "../Img/Mobile/Trending/Collab-of-the-month-mobile.jfif";
-import trendingBgDesktopImg from "../Img/Collab-of-the-month.jfif";
+import trendingBgDesktopImg from "../Img/Mobile/Trending/Collab-of-the-month-mobile.jfif";
 import TrendingCard from "./TrendingCard";
 import { data } from "../utils/data";
 import redirectIcon from "../Img/icon/icon-redirect.svg";
 import greyLogo from "../Img/icon/icon-logo-grey-2.svg";
 import { isMobile } from "react-device-detect";
-import poloTShirt from "../Img/POLO-1.jfif";
-import oversizedTshirt from "../Img/OVERSIZED.jfif";
-import footwear from "../Img/Footwear.jfif";
-import shirts from "../Img/SHIRTS-2.jfif";
-import denimsPants from "../Img/DENIMS.jfif";
+import poloTShirt from "../Img/POLO-1.jpg";
+import oversizedTshirt from "../Img/OVERSIZED.jpg";
+import footwear from "../Img/Footwear.jpg";
+import shirts from "../Img/SHIRTS-2.jpg";
+import denimsPants from "../Img/DENIMS.jpg";
 
 function TrendingCategories() {
   return (
