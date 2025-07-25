@@ -3,12 +3,20 @@ import CardContainer from "../components/CardContainer";
 import VideoContainer from "../components/VideoContainer";
 import TrendingCategories from "../components/TrendingCategories";
 import BestSellers from "../components/BestSellers";
-import bannerImg1 from "../Img/Mobile/Banner/BANNER-1.jfif";
-import bannerImg2 from "../Img/Mobile/Banner/BANNER-2.jfif";
-import bannerImg3 from "../Img/Mobile/Banner/BANNER-3.jfif";
-import bannerImg4 from "../Img/Mobile/Banner/BANNER-4.jfif";
-import bannerImg5 from "../Img/Mobile/Banner/BANNER-5.jfif";
-import bannerImg6 from "../Img/Mobile/Banner/BANNER-6.jfif";
+import mobileBannerImg1 from "../Img/Mobile/Banner/BANNER-1.jfif";
+import mobileBannerImg2 from "../Img/Mobile/Banner/BANNER-2.jfif";
+import mobileBannerImg3 from "../Img/Mobile/Banner/BANNER-3.jfif";
+import mobileBannerImg4 from "../Img/Mobile/Banner/BANNER-4.jfif";
+import mobileBannerImg5 from "../Img/Mobile/Banner/BANNER-5.jfif";
+import mobileBannerImg6 from "../Img/Mobile/Banner/BANNER-6.jfif";
+
+import desktopBannerImg1 from "../Img/Banner/BANNER-1.jfif";
+import desktopBannerImg2 from "../Img/Banner/BANNER-2.jfif";
+import desktopBannerImg3 from "../Img/Banner/BANNER-3.jfif";
+import desktopBannerImg4 from "../Img/Banner/BANNER-4.jfif";
+import desktopBannerImg5 from "../Img/Banner/BANNER-5.jfif";
+import desktopBannerImg6 from "../Img/Banner/BANNER-6.jfif";
+
 import AboutUsCarousel from "../components/AboutUsCarousel";
 import WallpaperContainer from "../components/WallpaperContainer";
 import WrognStore from "../components/WrognStore";
@@ -16,6 +24,7 @@ import Footer from "../components/Footer";
 import { useSelector } from "react-redux";
 import Navbar from "../components/Navbar";
 import SideBar from "../components/sidebar";
+import { isMobile } from "react-device-detect";
 
 function Home() {
   const isOpen = useSelector((state) => state.sidebar.isOpen);
@@ -26,14 +35,14 @@ function Home() {
       ) : (
         <>
           <Navbar />
-          <div className='mt-4 mx-1 lg:mt-0'>
+          <div className='mt-4 mx-1 lg:mt-0 lg:pt-20'>
             <HomeCarousel
-              img1={bannerImg1}
-              img2={bannerImg2}
-              img3={bannerImg3}
-              img4={bannerImg4}
-              img5={bannerImg5}
-              img6={bannerImg6}
+              img1={isMobile ? mobileBannerImg1 : desktopBannerImg1}
+              img2={isMobile ? mobileBannerImg2 : desktopBannerImg2}
+              img3={isMobile ? mobileBannerImg3 : desktopBannerImg3}
+              img4={isMobile ? mobileBannerImg4 : desktopBannerImg4}
+              img5={isMobile ? mobileBannerImg5 : desktopBannerImg5}
+              img6={isMobile ? mobileBannerImg6 : desktopBannerImg6}
             />
           </div>
           <CardContainer />

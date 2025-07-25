@@ -3,7 +3,7 @@ import { data } from "../utils/data";
 function CardContainer() {
   return (
     <>
-      <div className='mt-10'>
+      <div className='mt-10 lg:h-screen lg:px-32'>
         <div className='text-center'>
           <h1 className='font-[clashSemibold]  tracking-widest'>
             WEAR IT LIKE VIRAT

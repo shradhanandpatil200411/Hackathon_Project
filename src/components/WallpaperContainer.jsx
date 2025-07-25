@@ -12,10 +12,22 @@ function WallpaperContainer() {
           </h1>
         </div>
         <div className='overflow-x-auto no-scrollbar ml-3'>
-          <div className='flex gap-2 whitespace-nowrap'>
-            <img src={img1} className='w-72 rounded-2xl h-[420px]' alt='img' />
-            <img src={img3} className='w-72 rounded-2xl h-[420px]' alt='img' />
-            <img src={img2} className='w-72 rounded-2xl h-[420px]' alt='img' />
+          <div className='flex gap-2 whitespace-nowrap lg:justify-center'>
+            <img
+              src={img1}
+              className='w-72 rounded-2xl h-[420px] lg:h-[500px]'
+              alt='img'
+            />
+            <img
+              src={img3}
+              className='w-72 rounded-2xl h-[420px] lg:h-[500px]'
+              alt='img'
+            />
+            <img
+              src={img2}
+              className='w-72 rounded-2xl h-[420px] lg:h-[500px]'
+              alt='img'
+            />
           </div>
         </div>
       </div>

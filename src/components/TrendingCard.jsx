@@ -1,7 +1,7 @@
 function TrendingCard({ img, name, price }) {
   return (
     <>
-      <div className='w-[55%]'>
+      <div className='w-[55%] lg:w-[30%]'>
         <div>
           <img className='rounded-xl' src={img} alt='img' />
         </div>

@@ -1,3 +1,4 @@
+import { deviceType } from "react-device-detect";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -33,8 +34,8 @@ function HomeCarousel({ img1, img2, img3, img4, img5, img6 }) {
         transitionDuration={500}
         containerClass='carousel-container'
         removeArrowOnDeviceType={["tablet", "mobile"]}
-        // deviceType={this.props.deviceType}
-        dotListClass='custom-dot-list-style'
+        deviceType={deviceType}
+        dotListClass='custom-dot-list-style '
         itemClass='carousel-item-padding-40-px'>
         <div>
           <img className='w-full rounded-3xl  ' src={img1} alt='img-1' />
@@ -42,15 +43,22 @@ function HomeCarousel({ img1, img2, img3, img4, img5, img6 }) {
         <div>
           <img className='w-full rounded-3xl ' src={img2} alt='img-2' />
         </div>
-        <div>
-          <img className='w-full rounded-3xl ' src={img3} alt='img-3' />
-        </div>
-        <div>
-          <img className='w-full rounded-3xl ' src={img4} alt='img-4' />
-        </div>
-        <div>
-          <img className='w-full rounded-3xl ' src={img5} alt='img-5' />
-        </div>
+        {img3 && (
+          <div>
+            <img className='w-full rounded-3xl ' src={img3} alt='img-3' />
+          </div>
+        )}
+
+        {img4 && (
+          <div>
+            <img className='w-full rounded-3xl ' src={img4} alt='img-4' />
+          </div>
+        )}
+        {img5 && (
+          <div>
+            <img className='w-full rounded-3xl ' src={img5} alt='img-5' />
+          </div>
+        )}
         {img6 && (
           <div>
             <img className='w-full rounded-3xl ' src={img6} alt='img-6' />

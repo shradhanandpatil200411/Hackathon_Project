@@ -5,13 +5,15 @@ import youTube from "../Img/Youtube.png";
 import twitter from "../Img/Twitter.png";
 import img4 from "../Img/Mobile/Mobile_-_Footer_trust_marker.png";
 import addIcon from "../Img/add.svg";
+import footerDesktopImg from "../Img/Web_-_Footer_trust_marker_1-_1.png";
+import { isMobile } from "react-device-detect";
 
 function Footer() {
   return (
     <>
       <div className='bg-[#171601] rounded-t-2xl pb-20'>
         <div className='mt-10'>
-          <img src={img4} alt='img' />
+          <img src={isMobile ? img4 : footerDesktopImg} alt='img' />
         </div>
 
         <div className='pt-10 px-4'>

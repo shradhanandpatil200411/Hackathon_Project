@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+}
 
 
 @font-face {
@@ -49,18 +52,33 @@
 }
 
 
-@layer utilities {
-  .marquee-animation {
-    animation: marquee-linear 2s linear infinite both;
-  }
-
-  @keyframes marquee-linear {
-    0% {
-      transform: translateX(0);
+  @layer utilities {
+    .marquee-animation {
+      animation: marquee-linear 2s linear infinite both;
     }
 
+    @keyframes marquee-linear {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+@layer utilities {
+  .marquee-animation-desktop {
+    animation: marquee-linear-desktop 3s linear infinite both;
+  }
+
+  @keyframes marquee-linear-desktop {
+    0% {
+      transform: translateY(0%);
+    }
     100% {
-      transform: translateX(-100%);
+      transform: translateY(100%);
     }
   }
 }

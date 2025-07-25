@@ -11,27 +11,55 @@ function VideoContainer() {
 
   return (
     <>
-      <div>
+      <div className='lg:px-32 '>
         <div className='text-center mt-10 mb-5 '>
           <h1 className='font-[clashSemibold]  tracking-widest'>
             VIRAT HAS A MESSAGE FOR YOU
           </h1>
         </div>
-        <div className='relative bg-gray-100 border-4 border-gray-300 rounded-xl'>
-          <video className='rounded-t-xl' autoPlay muted={isMute} loop controls>
-            <source
-              src='https://wrogn.com/cdn/shop/videos/c/vp/f1d811a77c1043c2a2013c61018b1672/f1d811a77c1043c2a2013c61018b1672.HD-1080p-2.5Mbps-43782430.mp4?v=0'
-              type='video/mp4'
-            />
-          </video>
-          <div
-            className='absolute top-5 right-5'
-            onClick={() => setIsMute(!isMute)}>
-            {isMute ? (
-              <img src={muteIcon} alt='mute-img' />
-            ) : (
-              <img src={unmuteIcon} alt='unmute-icons' />
-            )}
+        <div className='relative bg-gray-100 border-4 border-gray-300 rounded-t-xl lg:rounded-t-4xl'>
+          <div className='flex'>
+            <video
+              className='rounded-xl lg:rounded-t-4xl lg:w-[90%] align-middle'
+              autoPlay
+              muted={isMute}
+              loop
+              controls>
+              <source
+                src='https://wrogn.com/cdn/shop/videos/c/vp/f1d811a77c1043c2a2013c61018b1672/f1d811a77c1043c2a2013c61018b1672.HD-1080p-2.5Mbps-43782430.mp4?v=0'
+                type='video/mp4'
+              />
+            </video>
+            <div
+              className='absolute top-5 right-5 lg:right-32 cursor-pointer'
+              onClick={() => setIsMute(!isMute)}>
+              {isMute ? (
+                <img src={muteIcon} alt='mute-img' />
+              ) : (
+                <img src={unmuteIcon} alt='unmute-icons' />
+              )}
+            </div>
+            <div className='hidden lg:flex lg:flex-col-reverse lg:px-8 lg:text-3xl lg:py-20 lg:text-center'>
+              <h1 className='-rotate-90 font-[clashBold]'>V</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>I</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>R</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>A</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>T</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>H</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>A</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>S</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>A</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>M</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>E</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>S</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>S</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>A</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>G</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>E</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>Y</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>O</h1>
+              <h1 className='-rotate-90 font-[clashBold]'>U</h1>
+            </div>
           </div>
           <div className='my-5'>
             <div className='flex justify-between items-center m-2 p-1'>

@@ -3,7 +3,7 @@ function SmallCard({ topPicksImg, name, price, cancelPrice }) {
     <>
       <div className='w-[55%] rounded-2xl bg-white'>
         <div>
-          <img className='rounded-2xl' src={topPicksImg} alt='shirt-img' />
+          <img className='rounded-2xl ' src={topPicksImg} alt='shirt-img' />
         </div>
         <div>
           <div className='my-1 bg-transparent'>
