@@ -23,7 +23,7 @@ import WrognStore from "../components/WrognStore";
 import Footer from "../components/Footer";
 import { useSelector } from "react-redux";
 import Navbar from "../components/Navbar";
-import SideBar from "../components/sidebar";
+import SideBar from "../components/SideBar";
 import { isMobile } from "react-device-detect";
 
 function Home() {
