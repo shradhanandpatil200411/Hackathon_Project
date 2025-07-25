@@ -3,12 +3,12 @@ import CardContainer from "../components/CardContainer";
 import VideoContainer from "../components/VideoContainer";
 import TrendingCategories from "../components/TrendingCategories";
 import BestSellers from "../components/BestSellers";
-import mobileBannerImg1 from "../Img/Mobile/Banner/BANNER-1.jfif";
-import mobileBannerImg2 from "../Img/Mobile/Banner/BANNER-2.jfif";
-import mobileBannerImg3 from "../Img/Mobile/Banner/BANNER-3.jfif";
-import mobileBannerImg4 from "../Img/Mobile/Banner/BANNER-4.jfif";
-import mobileBannerImg5 from "../Img/Mobile/Banner/BANNER-5.jfif";
-import mobileBannerImg6 from "../Img/Mobile/Banner/BANNER-6.jfif";
+import mobileBannerImg1 from "../Img/Mobile/Banner/Banner-1.jfif";
+import mobileBannerImg2 from "../Img/Mobile/Banner/Banner-2.jfif";
+import mobileBannerImg3 from "../Img/Mobile/Banner/Banner-3.jfif";
+import mobileBannerImg4 from "../Img/Mobile/Banner/Banner-4.jfif";
+import mobileBannerImg5 from "../Img/Mobile/Banner/Banner-5.jfif";
+import mobileBannerImg6 from "../Img/Mobile/Banner/Banner-6.jfif";
 
 import desktopBannerImg1 from "../Img/Banner/BANNER-1.jfif";
 import desktopBannerImg2 from "../Img/Banner/BANNER-2.jfif";
