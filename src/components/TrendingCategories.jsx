@@ -4,7 +4,7 @@ import polo from "../Img/Mobile/Trending/POLOS.jfif";
 import fullSleeve from "../Img/Mobile/Trending/SHOP-HALF-SLEEVE-SHIRTS-MOBILE_2.jfif";
 import halfSleeve from "../Img/Mobile/Trending/SHOP-HALF-SLEEVE-SHIRTS-MOBILE_2.jfif";
 import trendingBgImg from "../Img/Mobile/Trending/Collab-of-the-month-mobile.jfif";
-import trendingBgDesktopImg from "../Img/Mobile/Trending/Collab-of-the-month-mobile.jfif";
+import trendingBgDesktopImg from "../Img/Collab-of-the-month.jpg";
 import TrendingCard from "./TrendingCard";
 import { data } from "../utils/data";
 import redirectIcon from "../Img/icon/icon-redirect.svg";
